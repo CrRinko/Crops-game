@@ -1,12 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Daizi.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\choice\ShowText.cs">
     <Files>
       <File FileName="Assets\scripts\Mutong.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\Seed.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\Daizi.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\TouchManager.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\Chanzi.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\choice\ShowText.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
