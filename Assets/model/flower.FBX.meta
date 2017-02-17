@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: b3d739ae5a3daf645b8aeeaece54d613
+timeCreated: 1485073324
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 001
+    100002: 002
+    100004: 005
+    100006: 006
+    100008: 1
+    100010: Ellipse001
+    100012: Ellipse002
+    100014: Ellipse003
+    100016: Ellipse004
+    100018: Ellipse005
+    100020: Ellipse006
+    100022: Ellipse007
+    100024: Ellipse008
+    100026: Ellipse009
+    100028: Ellipse010
+    100030: Ellipse011
+    100032: Ellipse012
+    100034: Ellipse013
+    100036: Ellipse014
+    100038: //RootNode
+    100040: flower 1
+    100042: flower0
+    100044: Loft001
+    100046: Plane004
+    400000: 001
+    400002: 002
+    400004: 005
+    400006: 006
+    400008: 1
+    400010: Ellipse001
+    400012: Ellipse002
+    400014: Ellipse003
+    400016: Ellipse004
+    400018: Ellipse005
+    400020: Ellipse006
+    400022: Ellipse007
+    400024: Ellipse008
+    400026: Ellipse009
+    400028: Ellipse010
+    400030: Ellipse011
+    400032: Ellipse012
+    400034: Ellipse013
+    400036: Ellipse014
+    400038: //RootNode
+    400040: flower 1
+    400042: flower0
+    400044: Loft001
+    400046: Plane004
+    2300000: 002
+    2300002: 005
+    2300004: 006
+    2300006: 1
+    2300008: Ellipse001
+    2300010: Ellipse002
+    2300012: Ellipse003
+    2300014: Ellipse004
+    2300016: Ellipse005
+    2300018: Ellipse006
+    2300020: Ellipse007
+    2300022: Ellipse008
+    2300024: Ellipse009
+    2300026: Ellipse010
+    2300028: Ellipse011
+    2300030: Ellipse012
+    2300032: Ellipse013
+    2300034: Ellipse014
+    2300036: Loft001
+    2300038: Plane004
+    3300000: 002
+    3300002: 005
+    3300004: 006
+    3300006: 1
+    3300008: Ellipse001
+    3300010: Ellipse002
+    3300012: Ellipse003
+    3300014: Ellipse004
+    3300016: Ellipse005
+    3300018: Ellipse006
+    3300020: Ellipse007
+    3300022: Ellipse008
+    3300024: Ellipse009
+    3300026: Ellipse010
+    3300028: Ellipse011
+    3300030: Ellipse012
+    3300032: Ellipse013
+    3300034: Ellipse014
+    3300036: Loft001
+    3300038: Plane004
+    4300000: Loft001
+    4300002: Ellipse001
+    4300004: Ellipse005
+    4300006: Ellipse007
+    4300008: Ellipse006
+    4300010: Ellipse010
+    4300012: Ellipse003
+    4300014: Ellipse009
+    4300016: Ellipse008
+    4300018: Ellipse014
+    4300020: Ellipse002
+    4300022: Ellipse004
+    4300024: Ellipse011
+    4300026: Ellipse013
+    4300028: Ellipse012
+    4300030: Plane004
+    4300032: 005
+    4300034: 1
+    4300036: 002
+    4300038: 006
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

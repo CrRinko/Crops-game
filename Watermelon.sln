@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9AA80C57-478C-55B3-BCB3-4290D248D364}") = "Watermelon", "Assembly-CSharp-firstpass.csproj", "{AFEE01CB-CD09-8CE8-0AD6-33D7E856CC68}"
+EndProject
+Project("{9AA80C57-478C-55B3-BCB3-4290D248D364}") = "Watermelon", "Assembly-CSharp.csproj", "{6723493B-CFF2-8121-7D70-BC8EC9F37514}"
+EndProject
+Project("{9AA80C57-478C-55B3-BCB3-4290D248D364}") = "Watermelon", "Assembly-CSharp-Editor-firstpass.csproj", "{78739B0F-9206-3A31-24E7-F3647DDA8C4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFEE01CB-CD09-8CE8-0AD6-33D7E856CC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEE01CB-CD09-8CE8-0AD6-33D7E856CC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEE01CB-CD09-8CE8-0AD6-33D7E856CC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEE01CB-CD09-8CE8-0AD6-33D7E856CC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6723493B-CFF2-8121-7D70-BC8EC9F37514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6723493B-CFF2-8121-7D70-BC8EC9F37514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6723493B-CFF2-8121-7D70-BC8EC9F37514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6723493B-CFF2-8121-7D70-BC8EC9F37514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78739B0F-9206-3A31-24E7-F3647DDA8C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78739B0F-9206-3A31-24E7-F3647DDA8C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78739B0F-9206-3A31-24E7-F3647DDA8C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78739B0F-9206-3A31-24E7-F3647DDA8C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
