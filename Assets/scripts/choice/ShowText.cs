@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ShowText : MonoBehaviour {
 	public Text intro;
@@ -25,5 +26,14 @@ public class ShowText : MonoBehaviour {
 		print("Exit!");
 		intro.enabled = false;
 		gameObject.GetComponent<TextMesh> ().color = origin;
+	}
+	void OnMouseDown(){
+		switch (gameObject.name) {
+		case "xigua":
+			SceneManager.LoadScene ("main");
+			break;
+		default:
+			break;
+		}
 	}
 }
