@@ -50,10 +50,10 @@
      <Compile Include="Assets\scripts\Chanzi.cs" />
      <Compile Include="Assets\scripts\Daizi.cs" />
      <Compile Include="Assets\scripts\Flower.cs" />
+     <Compile Include="Assets\scripts\Fruit.cs" />
      <Compile Include="Assets\scripts\Mutong.cs" />
      <Compile Include="Assets\scripts\PitManager.cs" />
      <Compile Include="Assets\scripts\Seed.cs" />
-     <Compile Include="Assets\scripts\TerrainModify.cs" />
      <Compile Include="Assets\scripts\TerrainS.cs" />
      <Compile Include="Assets\scripts\TouchManager.cs" />
      <Compile Include="Assets\scripts\choice\MCamera.cs" />

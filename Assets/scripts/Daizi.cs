@@ -13,6 +13,7 @@ public class Daizi : MonoBehaviour {
 	void Update () {
 	}
 	public void topple(){
-		Instantiate (seed,transform.position,transform.rotation);
+		GameObject clone=Instantiate (seed,transform.position,transform.rotation);
+		clone.GetComponent<Seed> ().isClone = true;
 	}
 }

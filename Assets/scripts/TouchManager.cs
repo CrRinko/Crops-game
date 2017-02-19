@@ -36,7 +36,7 @@ public class TouchManager : MonoBehaviour
 						if (target.GetComponent<watermelon> ().Stage == 2) {
 							pickup_obj = target.GetComponent<watermelon> ().GetFlower ();
 						} else if (target.GetComponent<watermelon> ().Stage == 3) {
-							pickup_obj = pickup_obj = target.GetComponent<watermelon> ().GetFruit ();
+							pickup_obj = target.GetComponent<watermelon> ().GetFruit ();
 						}
 						if (pickup_obj!=null) {
 							pickup = true;

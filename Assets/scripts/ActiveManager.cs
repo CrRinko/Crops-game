@@ -5,9 +5,12 @@ using UnityEngine;
 public class ActiveManager : MonoBehaviour {
 	public Camera player;
 	public float distance = 5f;
-	void onEnable () {
+	void OnEnable () {
+		print ("OnEnable");
 		Rigidbody obj = gameObject.GetComponent<Rigidbody>();
-		obj.isKinematic = true;
+		if (obj != null) {
+			obj.isKinematic = true;
+		}
 	}
 	
 	void Update () {
@@ -15,9 +18,12 @@ public class ActiveManager : MonoBehaviour {
 		gameObject.transform.LookAt (player.transform);
 	}
 
-	void onDisable(){
+	void OnDisable(){
+		print ("OnDisable");
 		Rigidbody obj = gameObject.GetComponent<Rigidbody>();
-		obj.isKinematic = false;
+		if (obj != null) {
+			obj.isKinematic = false;
+		}
 	}
 	public Camera Player{
 		set{ 

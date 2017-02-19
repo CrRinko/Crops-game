@@ -66,6 +66,7 @@ public class watermelon : MonoBehaviour {
 		}
 	}
 	public void GrowUp(){
+		print ("Watermelon: GrowUp()");
 		status++;
 		if (status == 1) {
 			gameObject.transform.localScale += new Vector3 (1, 1, 1);

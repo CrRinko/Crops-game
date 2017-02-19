@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Seed : MonoBehaviour {
 	private bool invalidated = true;
+	public bool isClone = false;
 	
 	// Update is called once per frame
 	void Update () {
@@ -12,7 +13,7 @@ public class Seed : MonoBehaviour {
 			for (int i = 0; i < list.Count; i++) {
 				PitManager.Pit pit = (PitManager.Pit)list [i];
 				if (pit.InIt (gameObject.transform.position)) {
-					pit.hasSeed = true;
+					pit.AddSeed (gameObject);
 					invalidated = false;
 					break;
 				}
@@ -21,13 +22,8 @@ public class Seed : MonoBehaviour {
 	}
 		
 	void OnCollisionStay(Collision collisionInfo) {
-		if (invalidated) {
+		if (invalidated&&isClone) {
 			Destroy (gameObject, 5);
 		}
-	}
-
-	void OnCovered(){
-		invalidated = false;
-		Debug.Log ("Covered!");
 	}
 }

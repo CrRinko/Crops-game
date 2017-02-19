@@ -12,7 +12,8 @@ public class PitManager : MonoBehaviour {
 		public float[,] backup;
 		private TerrainData terrainData;
 		private GameObject flower;
-		public bool hasSeed = false;
+		private bool hasSeed = false;
+		private ArrayList seeds=new ArrayList();
 		public Pit(TerrainData terrain,GameObject flower){
 			terrainData=terrain;
 			this.flower=flower;
@@ -33,13 +34,25 @@ public class PitManager : MonoBehaviour {
 			terrainData.SetHeights (xPos-radius_x,yPos-radius_y,backup);
 		}
 		public void GrowFlower(){
+			for (int i = 0; i < seeds.Count; i++) {
+				Destroy ((GameObject)seeds [i]);
+			}
 			fill ();
 			Vector3 scale = terrainData.heightmapScale;
 			int radius_x = (int)(radius / scale.x);
 			int radius_y = (int)(radius / scale.z);
 			print (backup [radius_y, radius_x]+" sy:"+scale.y);
 			float height = backup [radius_y, radius_x] * scale.y;
-			Instantiate (flower,new Vector3(xBase,height+0.5f,yBase),Quaternion.identity);
+			Instantiate (flower,new Vector3(xBase,height+0.2f,yBase),Quaternion.identity);
+		}
+		public void AddSeed(GameObject seed){
+			seeds.Add (seed);
+			hasSeed = true;
+		}
+		public bool HasSeed{
+			get{ 
+				return hasSeed;
+			}
 		}
 	}
 	public static ArrayList pits = new ArrayList ();

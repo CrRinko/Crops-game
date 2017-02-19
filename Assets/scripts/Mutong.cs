@@ -19,7 +19,7 @@ public class Mutong : MonoBehaviour {
 		for (int i = 0; i < pits.Count; i++) {
 			PitManager.Pit pit = (PitManager.Pit)pits [i];
 			if (pit.InIt (pos)) {
-				if (pit.hasSeed) {
+				if (pit.HasSeed) {
 					pit.GrowFlower ();
 					pits.RemoveAt (i);
 				}
@@ -28,6 +28,7 @@ public class Mutong : MonoBehaviour {
 		}
 	}
 	public void grow(GameObject flower){
+		print ("Mutong: grow()");
 		watermelon script=flower.GetComponent<watermelon>();
 		if (script.Stage >=0&&script.Stage<=1) {
 			script.GrowUp ();
