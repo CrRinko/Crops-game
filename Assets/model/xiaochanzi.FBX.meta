@@ -1,17 +1,15 @@
 fileFormatVersion: 2
-guid: 39b2ab42fc5117349afd811dae0e748f
-timeCreated: 1484813413
+guid: 021e9079158424047957ed346d3031f8
+timeCreated: 1487487961
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: "\u041B\u043E\u043F\u0430\u0442\u0430"
     400000: //RootNode
-    400002: "\u041B\u043E\u043F\u0430\u0442\u0430"
-    2300000: "\u041B\u043E\u043F\u0430\u0442\u0430"
-    3300000: "\u041B\u043E\u043F\u0430\u0442\u0430"
-    4300000: "\u041B\u043E\u043F\u0430\u0442\u0430"
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: "\u041B\u043E\u043F\u0430\u0442"
     9500000: //RootNode
   materials:
     importMaterials: 1
