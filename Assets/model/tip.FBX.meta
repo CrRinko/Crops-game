@@ -76,6 +76,19 @@ ModelImporter:
     4300020: Box005
     4300022: Box002
     4300024: Box001
+    6400000: 1banzi
+    6400002: 2mingpai
+    6400004: Box001
+    6400006: Box002
+    6400008: Box005
+    6400010: Box006
+    6400012: Box007
+    6400014: Box008
+    6400016: Box009
+    6400018: Box012
+    6400020: Box013
+    6400022: Box014
+    6400024: Box015
     9500000: //RootNode
   materials:
     importMaterials: 1
