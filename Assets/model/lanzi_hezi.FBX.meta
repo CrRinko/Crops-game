@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: cc067917546d23f4ab9fd1fdccc0be27
-timeCreated: 1487430851
+guid: ff772c85ce4ce3f40a52f040469a666a
+timeCreated: 1487430269
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -24,6 +24,9 @@ ModelImporter:
     4300000: Cylinder001
     4300002: lanzi_MeshPart0
     4300004: lanzi_MeshPart1
+    6400000: Cylinder001
+    6400002: lanzi_MeshPart0
+    6400004: lanzi_MeshPart1
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -51,7 +54,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
