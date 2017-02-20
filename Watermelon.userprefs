@@ -1,16 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\ActiveManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\choice\AboutUS.cs">
     <Files>
-      <File FileName="Assets\scripts\Daizi.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\Mutong.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\watermelon.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\TouchManager.cs" Line="38" Column="66" />
-      <File FileName="Assets\scripts\PitManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\Fruit.cs" Line="19" Column="3" />
-      <File FileName="Assets\scripts\Seed.cs" Line="28" Column="3" />
-      <File FileName="Assets\scripts\Flower.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\ActiveManager.cs" Line="8" Column="8" />
+      <File FileName="Assets\scripts\choice\ShowText.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\choice\LookAt.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\choice\MCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\choice\Msg.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\choice\AboutUS.cs" Line="20" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

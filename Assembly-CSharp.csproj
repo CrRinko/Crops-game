@@ -56,7 +56,10 @@
      <Compile Include="Assets\scripts\Seed.cs" />
      <Compile Include="Assets\scripts\TerrainS.cs" />
      <Compile Include="Assets\scripts\TouchManager.cs" />
+     <Compile Include="Assets\scripts\choice\AboutUS.cs" />
+     <Compile Include="Assets\scripts\choice\LookAt.cs" />
      <Compile Include="Assets\scripts\choice\MCamera.cs" />
+     <Compile Include="Assets\scripts\choice\Msg.cs" />
      <Compile Include="Assets\scripts\choice\PointManager.cs" />
      <Compile Include="Assets\scripts\choice\ShowText.cs" />
      <Compile Include="Assets\scripts\choice\VoiceOver.cs" />
